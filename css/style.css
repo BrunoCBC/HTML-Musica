@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    --cor-primaria: #FF6311;
+    --cor-secundaria: #2C2B2B;
+}
+
+
+
+
+
+.cabecalho{
+    background-color: var(--cor-secundaria);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    display: flex;
+}
+
+.cabecalho-menu ul{
+    font-size: x-large;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+.principal{
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 800px;
+    width: 100%;
+    size: 100%;
+}
+
+.principal-conteudo{
+    flex-direction: column;
+    display: flex;
+    width: 40%;
+    left: 70px;
+    gap: 30px;
+    top: 50%;
+}
+
+.principal-conteudo h1{
+    font-size: 60px;
+}
+
+.principal-conteudo a{
+    background-color: var(--cor-primaria);
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    font-size: x-large;
+    color: white;
+    display: flex;
+    width: 200px;
+    height: 35px;
+}
+
+
+
+
+
+.secao-dance{
+    background-color: var(--cor-primaria);
+    flex-direction: column;
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho-secao{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho-secao p{
+    text-align: justify;
+}
+
+.container-cards{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    background-color: var(--cor-secundaria);
+    width: 400px;
+    height: 500px;
+}
+
+.card-img figure img{
+    width: 100%;
+}
+
+.card-conteudo{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+}
+
+.card-conteudo p{
+    text-align: justify;
+}
+
+
+
+
+
+section{
+    padding: 20px 50px;
+}
